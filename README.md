@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# FundDapp - Decentralised Crowdfunding for Environmental Crisis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+FundDapp is a React.js web application designed to facilitate decentralized crowdfunding for environmental crisis campaigns. It empowers users to submit their needs and make donations using web3 wallets like MetaMask. The application incorporates Supabase Authentication for hybrid storage and leverages a smart contract deployed.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Crowdfunding Campaigns:** Users can create and participate in crowdfunding campaigns dedicated to environmental crises.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Web3 Wallet Integration:** The platform seamlessly integrates with web3 wallets like MetaMask for secure and convenient donations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Supabase Authentication:** Utilizes Supabase Authentication for user management and hybrid data storage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React.js:** The frontend is built with React.js for a responsive and dynamic user interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Material UI:** Material UI is used for styling, providing an aesthetically pleasing and user-friendly design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Supabase:** Supabase is employed for authentication and hybrid data storage, ensuring data security and management.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Solidity:** The smart contract is deployed on the Solidity, offering scalability and reduced transaction costs.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/terradapp.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd funddapp
+   ```
+3. Install dependencies:
+   ```bash
+   yarn install
+   ```
+4. Start Development Server:
+   ```bash
+   yarn dev
+   ```
