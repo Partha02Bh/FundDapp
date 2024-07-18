@@ -35,11 +35,11 @@ FundDapp is a React.js web application designed to facilitate decentralized crow
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/terradapp.git
+   git clone https://github.com/yourusername/FundDapp.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd funddapp
+   cd FundDapp
    ```
 3. Install dependencies:
    ```bash
